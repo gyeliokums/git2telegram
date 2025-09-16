@@ -1,3 +1,3 @@
 ﻿# git2telegram
 
-Проверка работы action workflow для отправки сообщений в telegram.
+
