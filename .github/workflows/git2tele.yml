@@ -15,7 +15,7 @@ jobs:
         uses: cbrgm/telegram-github-action@v1
         with:
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          to: ${{ secrets.TELEGRAM_CHAT_ID_AF }}
           message: |
             New commit by ${{ github.actor }}!
             Commit: ${{ github.event.head_commit.message }}
